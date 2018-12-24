@@ -1,0 +1,9 @@
+sftp:
+    image: kevin31/arm-sftp
+    container_name: sftp
+    restart: always
+    volumes:
+        - $USERS_CONF:/etc/sftp/users.conf:ro
+        - $HOST_PATH:/home/pi/storage
+    ports:
+        - "$PORT:22"
