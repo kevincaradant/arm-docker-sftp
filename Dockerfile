@@ -1,5 +1,5 @@
 FROM container4armhf/armhf-alpine:3.6
-MAINTAINER Adrian Dvergsdal [atmoz.net]
+MAINTAINER kevinosorus <kevin.caradant@gmail.com>
 
 # Steps done in one RUN layer:
 # - Install packages
